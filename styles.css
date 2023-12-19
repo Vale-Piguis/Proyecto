@@ -166,17 +166,7 @@ input, textarea {
 .button:hover {
     background-color: rgb(250, 166, 136);
 }
-
-
-/* @media(max-whidth:991px) {
-    form{
-        padding: 30px;
-        width: 100%;
-    }
-    input {
-        padding: ;
-    }
-} */
+ 
 /* FOOTER */
 .footer-item{
     background-color: rgb(255, 143, 143);
@@ -189,8 +179,12 @@ input, textarea {
  height: 30px;
 }
 
-/* @media (min-width:300px) {
 
+
+/* Profe intente hacer las JQueries, pero no me salieron. */
+
+
+/* @media (min-width:300px) {
 .menu-item {    
     display: block;
      float: left;
@@ -204,9 +198,7 @@ input, textarea {
     height: 300px;
 } 
 }
-@media (min-width:300px){
-
-   
+@media (min-width:300px){ 
 .primas-foto {
 
     width: 250px;
