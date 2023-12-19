@@ -1,0 +1,220 @@
+
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    color: #434343;
+    font-family: montserrat,Sans-serif;
+    background-color: #fff;
+    margin: 20px;
+    }
+.menu-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color:rgb(247, 155, 155);
+    font-size: 20px; 
+    list-style: none ;   
+}
+.nav-item a {
+    text-decoration: none;
+} 
+.nav-item :hover {
+    background-color: rgb(255, 212, 212);
+}
+
+/* PORTADA */
+.portada {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;  
+}
+.portada img {
+    width: 400px;
+    height: 400px;
+    padding-top: 30px;  
+}
+.portada p {
+    font-size: 60px ;  
+    font-family: 'Satisfy', cursive;       
+}
+.productos h1 {
+     text-align: center;
+     font-size: 40px;
+     padding: 30px;
+     margin-bottom: 20px;  
+     border-top: 2px solid #434343;
+     border-bottom:2px solid #434343;
+     background-color:antiquewhite ;
+}
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat( auto-fit,minmax(300px,1fr));
+    justify-items: center;
+    align-items: center;
+    padding: 30px;  
+}
+
+.imagenes img {
+    width: 300px;
+    height: 200px;
+    padding-top: 20px;
+}
+.imagenes h3{
+    text-align: center;
+    padding-bottom: 10px;    
+}
+.imagenes ol  {
+    padding-left: 20px;
+}
+
+/* NUESTROS PRODUCTOS */
+h2 {
+    text-align: center; 
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+  h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px; 
+} 
+.productos-pasteleria {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: antiquewhite;
+    border-bottom:2px solid #434343;
+    border-top:2px solid #434343;
+
+} 
+.pasteleria img { 
+    width: 220px;
+    height: 200px;
+    margin: 20px;
+}
+
+/* QUIENES SOMOS */
+.primas img {
+    
+     width: 530px;
+     height: 400px;
+     padding-top: 50px;    
+}
+.primas-foto {
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+}
+ .parrafo {
+    margin-top: 50px;
+    border-bottom:1px solid #434343;
+    border-top:1px solid #434343;
+ }
+
+/* CONTACTO */
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+form {
+    padding: 30px 35px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+}
+.input-contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+h2 {
+    font-size: 40px;
+    color: #2e2d2d;    
+}
+
+label {
+    color: #2e2d2d; 
+    font-size: 20px; 
+    font-weight:bold;
+    margin-bottom: 10px;
+}  
+
+input, textarea {
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 240, 222);
+    border: 1px solid #2e2d2d; 
+    color:#2e2d2d;
+    outline: none;    
+}
+
+.button {
+     font-size: 15px;
+     background-color:rgb(255, 195, 173);
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+     cursor: pointer;
+     
+}     
+.button:hover {
+    background-color: rgb(250, 166, 136);
+}
+
+
+/* @media(max-whidth:991px) {
+    form{
+        padding: 30px;
+        width: 100%;
+    }
+    input {
+        padding: ;
+    }
+} */
+/* FOOTER */
+.footer-item{
+    background-color: rgb(255, 143, 143);
+    text-align: center;
+    padding: 30px; 
+    margin-top: 80px;
+}
+.footer-item img {
+ width: 30px;
+ height: 30px;
+}
+
+/* @media (min-width:300px) {
+
+.menu-item {    
+    display: block;
+     float: left;
+     width: 100%;
+    } 
+.menu-item a {
+    padding-left: 90px;
+}   
+.portada img {
+    width: 300px;
+    height: 300px;
+} 
+}
+@media (min-width:300px){
+
+   
+.primas-foto {
+
+    width: 250px;
+    height: 150px;
+   
+}
+.parrafo {
+padding-top: 200px;
+
+}
+} */
